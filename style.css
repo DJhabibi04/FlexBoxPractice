@@ -1,0 +1,17 @@
+*
+{background-color: darksalmon;
+font-family: Arial, Helvetica, sans-serif;}
+
+.div1
+{display: flex;}
+
+li
+{flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 0;    
+text-align: center;
+border: 50px solid blue;
+margin: 50px;
+padding: 50px;}
+
+
