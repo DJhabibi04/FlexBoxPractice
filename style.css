@@ -2,16 +2,27 @@
 {background-color: darksalmon;
 font-family: Arial, Helvetica, sans-serif;}
 
-.div1
-{display: flex;}
 
-li
-{flex-grow: 1;
-flex-shrink: 1;
-flex-basis: 0;    
-text-align: center;
+
+.container
+{display: flex;
+flex-wrap: wrap;    
+justify-content: space-around;
 border: 50px solid blue;
 margin: 50px;
 padding: 50px;}
+ 
+
+.Box1, .Box2, .Box3, .Box4
+{flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 0;
+text-align: center;
+border: 50px solid green;
+margin: 50px;
+padding: 50px;}
+
+
+/*    /*
 
 
