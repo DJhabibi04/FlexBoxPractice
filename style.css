@@ -4,72 +4,82 @@ font-family: Arial, Helvetica, sans-serif;}
 
 
 
-.container
+.container 
 {display: flex;
 flex-flow: row wrap; 
 justify-content: center;
+height: 300px;
+width: 400px;
 border: 30px solid blue;
 margin: 50px;
 padding: 50px;}
  
 .Box1
-{order: 6;
+{flex: 1;        
+order: 1;
 margin: 5px;
 border: 20px solid green;
 padding: 10px;
 text-align: center;}
 
 .Box2
-{order: 5;
+{flex: 1;        
+order: 2;    
 margin: 20px;
 border: 20px solid green;
 padding: 10px;
 text-align: center;}
 
 .Box3
-{order: 4;
-margin: 30px;
+{flex: 1;        
+order: 3; 
 border: 20px solid green;
 padding: 10px;
 text-align: center;}
 
 .Box4
-{order: 3;
+{flex: 1;        
+order: 4;
 margin: 60px;
 border: 20px solid green;
 padding: 10px;
 text-align: center;}
 
 .Box5
-{order: 1;
+{flex: 1;        
+order: 5;
 margin: 50px;
 border: 20px solid green;
 padding: 5px;
 text-align: center;}
 
 .Box6
-{order: 2;
+{flex: 1;        
+order: 6;
 margin: 40px;
 border: 20px solid green;
 padding: 10px;
 text-align: center;}
 
 .Box7
-{order: 8;
+{flex: 1;        
+order: 7;
 margin: 20px;
 border: 20px solid green;
 padding: 10px;
 text-align: center;}
 
 .Box8
-{order: 9;
+{flex: 1;        
+order: 8;
 margin: 10px;
 border: 20px solid green;
 padding: 10px;
 text-align: center;}
 
 .Box9
-{order: 7;
+{flex: 1;        
+order: 9;
 margin: 55px;
 border: 20px solid green;
 padding: 10px;
